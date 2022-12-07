@@ -120,9 +120,9 @@ var createScene = function () {
 
     back9.material = hexMat('#FFFFFF')
 
-    var snowman = new meshModel('snowman.glb',2,2,10,10);
-    var ground = new meshModel('snowfloor.glb',-10,2,50,50);
-    var house = new meshModel('snowhome.glb', 20, 20, 10, 10);
+    //var snowman = new meshModel('snowman.glb',2,2,10,10);
+    var ground = new meshModel('snowfloor.glb',0,0,10,10);
+    var house = new meshModel('snowhome.glb', 0, 0, 10, 10);
 
     return scene;
 };
