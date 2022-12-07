@@ -120,9 +120,7 @@ var createScene = function () {
 
     back9.material = hexMat('#FFFFFF')
 
-    var meshyy = new meshModel('tree2.glb',2,-2,1,1);
-    
-    var park1 = new meshModel('park.skp',0,-2,10,10)
+    var meshyy = new meshModel('ground.glb',2,-2,20,20);
 
     return scene;
 };
