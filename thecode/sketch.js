@@ -48,6 +48,7 @@ var createScene = function () {
 
     //GREEN...........wrap box in material from local file
     b2.material = fileMat('tutt.jpg');
+    b2.rotation.z += Math.PI;
 
     var back2 = createBox(40,0,-50.1,40,40,.01)
 
@@ -66,6 +67,7 @@ var createScene = function () {
 
     //wrap box in material from local file
     b4.material = fileMat('renaissancee.jpg', scene);
+    b4.rotation.z += Math.PI;
 
     var back4 = createBox(120,0,-50.1,40,40,.01)
 
@@ -103,6 +105,7 @@ var createScene = function () {
 
     //wrap box in material from local file
     b8.material = fileMat('lichenn.jpg', scene);
+    b8.rotation.z += Math.PI;
 
     var back8 = createBox(280,0,-50.1,40,40,.01)
 
@@ -117,9 +120,9 @@ var createScene = function () {
 
     back9.material = hexMat('#FFFFFF')
 
-    var meshyy = new meshModel('tree.glb',2,0,1,1);
-
-    var meshyy1 = new meshModel('tree2.glb',1,0,2,2)
+    var meshyy = new meshModel('tree.glb',2,-2,1,1);
+    
+    var park1 = new meshModel('park.skp',0,-2,10,10)
 
     return scene;
 };
