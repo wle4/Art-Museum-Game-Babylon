@@ -35,6 +35,10 @@ var createScene = function () {
     scene.clearColor = new BABYLON.Color3.FromHexString('#000');
     
     //create box with params x, y, z, width, height, ddepth
+    var back1 = createBox(0,0,20.1,40,40,.01)
+
+    back1.material = hexMat('#FFFFFF')
+
     var b1 = createBox(0, 0, 20, 40, 40, .01);
 
     //BLUE.... wrap box in material colored with hex code
@@ -43,44 +47,78 @@ var createScene = function () {
     var b2 = createBox(40, 0, -50, 40, 40, .01);
 
     //GREEN...........wrap box in material from local file
-    b2.material = hexMat('#7E8772');
+    b2.material = fileMat('tutt.jpg');
+
+    var back2 = createBox(40,0,-50.1,40,40,.01)
+
+    back2.material = hexMat('#FFFFFF')
     
     var b3 = createBox(80, 0, 20, 40, 40, .01);
 
     //wrap box in material from local file
-    b3.material = hexMat('#00008B', scene);
+    b3.material = fileMat('kingdomm.jpg', scene);
+
+    var back3 = createBox(80,0,20.1,40,40,.01)
+
+    back3.material = hexMat('#FFFFFF')
 
     var b4 = createBox(120, 0, -50, 40, 40, .01);
 
     //wrap box in material from local file
-    b4.material = hexMat('#00008B', scene);
+    b4.material = fileMat('renaissancee.jpg', scene);
+
+    var back4 = createBox(120,0,-50.1,40,40,.01)
+
+    back4.material = hexMat('#FFFFFF')
 
     var b5 = createBox(160, 0, 20, 40, 40, .01);
 
     //wrap box in material from local file
-    b5.material = hexMat('#00008B', scene);
+    b5.material = fileMat('lillyy.jpg', scene);
+
+    var back5 = createBox(160,0,20.1,40,40,.01)
+
+    back5.material = hexMat('#FFFFFF')
 
     var b6 = createBox(200, 0, -50, 40, 40, .01);
 
     //wrap box in material from local file
-    b6.material = hexMat('#00008B', scene);
+    b6.material = fileMat('chicagoo.jpg', scene);
+
+    var back6 = createBox(200,0,-50.1,40,40,.01)
+
+    back6.material = hexMat('#FFFFFF')
 
     var b7 = createBox(240, 0, 20, 40, 40, .01);
 
     //wrap box in material from local file
-    b7.material = hexMat('#00008B', scene);
+    b7.material = fileMat('warholl.jpg', scene);
+
+    var back7 = createBox(240,0,20.1,40,40,.01)
+
+    back7.material = hexMat('#FFFFFF')
 
     var b8 = createBox(280, 0, -50, 40, 40, .01);
 
     //wrap box in material from local file
-    b8.material = hexMat('#00008B', scene);
+    b8.material = fileMat('lichenn.jpg', scene);
+
+    var back8 = createBox(280,0,-50.1,40,40,.01)
+
+    back8.material = hexMat('#FFFFFF')
 
     var b9 = createBox(320, 0, 20, 40, 40, .01);
 
     //wrap box in material from local file
-    b9.material = hexMat('#00008B', scene);
+    b9.material = fileMat('#00008B', scene);
 
-    var meshyy = new meshModel('car.glb',1);
+    var back9 = createBox(320,0,20.1,40,40,.01)
+
+    back9.material = hexMat('#FFFFFF')
+
+    var meshyy = new meshModel('tree.glb',20);
+
+    var meshyy1 = new meshModel('tree2.glb', 50)
 
     return scene;
 };
