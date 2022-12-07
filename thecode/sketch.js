@@ -120,7 +120,7 @@ var createScene = function () {
 
     back9.material = hexMat('#FFFFFF')
 
-    var meshyy = new meshModel('ground.glb',2,-2,20,20);
+    var meshyy = new meshModel('cherry.glb',2,-10,20,20);
 
     return scene;
 };
