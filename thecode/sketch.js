@@ -116,9 +116,9 @@ var createScene = function () {
 
     back9.material = hexMat('#FFFFFF')
 
-    var meshyy = new meshModel('tree.glb',20);
+    var meshyy = new meshModel('tree.glb',.1,.1,.1,.1);
 
-    var meshyy1 = new meshModel('tree2.glb', 50)
+    var meshyy1 = new meshModel('tree2.glb',.1,.1,.1,.1)
 
     return scene;
 };
