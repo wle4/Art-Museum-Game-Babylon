@@ -88,6 +88,7 @@ var createScene = function () {
     var back6 = createBox(200,0,-50.1,40,40,.01)
 
     back6.material = hexMat('#FFFFFF')
+    b6.rotation.z += Math.PI/2;
 
     var b7 = createBox(240, 0, 20, 40, 40, .01);
 
