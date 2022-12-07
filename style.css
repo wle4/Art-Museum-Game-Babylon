@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+
+}
+
+/*standard canvas*/
+canvas {
+  display: block;
+}
+
+/*add this class to canvas that is 50% window width to center it*/
+canvas.centered{
+  display:inline-block;
+  margin:auto;
+  position:absolute;
+  left:25%;
+}
+
+/*add this class to canvas to position it using left and top properties*/
+canvas.positioned{
+  display:inline-block;
+  margin:auto;
+  position:absolute;
+  left:500px;
+  top:300px;
+}
+
+/*wrap HTML in this class to overlay it on a standard p5 canvas*/
+.overlay{position:absolute; top:0; left:0; color:white}
+
+/*wrap HTML in this class to center it above p5 canvas*/
+.above-center{text-align:center;}
+
+/*sets link color to pink*/
+a{color:pink;}
