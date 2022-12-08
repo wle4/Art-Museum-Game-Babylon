@@ -14,4 +14,4 @@ P5: https://www.dailyartmagazine.com/the-marriage-of-the-virgin/
 P6: https://www.claude-monet.com/the-water-lily-pond.jsp
 P7: https://www.artic.edu/artworks/111628/nighthawks
 P8: https://origins.osu.edu/milestones/november-2012-andy-warhol-s-campbell-s-soup-cans-1962?language_content_entity=en
-P9: 
+P9: https://www.guyhepner.com/product/crying-girl-roy-lichtenstein/
