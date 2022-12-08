@@ -5,6 +5,8 @@ https://www.cgtrader.com/items/2767359/download-page
 https://www.cgtrader.com/items/3966107/download-page
 https://www.cgtrader.com/items/2843601/download-page
 
+video that helped me work the p5.js code:
+https://www.youtube.com/watch?v=kjqo_uXn87I&ab_channel=BarneyCodes
 
 art history references:
 P2: https://www.heritagedaily.com/2020/03/10-prehistoric-cave-paintings/126971
