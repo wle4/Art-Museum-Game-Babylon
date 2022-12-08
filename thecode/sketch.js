@@ -111,18 +111,12 @@ var createScene = function () {
 
     back8.material = hexMat('#FFFFFF')
 
-    var b9 = createBox(320, 0, 20, 40, 40, .01);
-
-    //wrap box in material from local file
-    b9.material = fileMat('#00008B', scene);
-
-    var back9 = createBox(320,0,20.1,40,40,.01)
+    var back9 = createBox(100,-20.3,-10,400,0,200)
 
     back9.material = hexMat('#FFFFFF')
 
-    //var snowman = new meshModel('snowman.glb',2,2,10,10);
-    var ground = new meshModel('snowfloor.glb',0,0,10,10);
-    var house = new meshModel('snowhome.glb', 0, 0, 10, 10);
+    var snowman = new meshModel('snowman.glb',20,2,20,20);
+    var house = new meshModel('snowhome.glb', -20, 0, 20, 20);
 
     return scene;
 };
